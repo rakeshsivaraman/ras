@@ -1,0 +1,28 @@
+body {
+    background: $color;
+
+    h1 {
+        color: $violet;
+        font-family: $font-name;
+    }
+
+    ul {
+        margin: 0;
+        padding: 0;
+
+        li {
+            list-style: none;
+            
+            div, span {
+                font-family: $font-name;
+                font-weight: bold;
+                margin-bottom: 10px;
+                display: block;
+
+                &.color-swap {
+                    background: $violet;
+                }
+            }
+        }
+    }
+}

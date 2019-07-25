@@ -1,0 +1,29 @@
+body {
+  background: #f1f1f1;
+}
+
+body h1 {
+  color: violet;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+}
+
+body ul li {
+  list-style: none;
+}
+
+body ul li div, body ul li span {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: block;
+}
+
+body ul li div.color-swap, body ul li span.color-swap {
+  background: violet;
+}
+/*# sourceMappingURL=main.css.map */
