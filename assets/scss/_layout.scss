@@ -22,6 +22,10 @@ body {
                 &.color-swap {
                     background: $violet;
                 }
+
+                &.ras-yellow {
+                    color: $yellow;
+                }
             }
         }
     }

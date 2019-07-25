@@ -26,4 +26,8 @@ body ul li div, body ul li span {
 body ul li div.color-swap, body ul li span.color-swap {
   background: violet;
 }
+
+body ul li div.ras-yellow, body ul li span.ras-yellow {
+  color: #dbb300;
+}
 /*# sourceMappingURL=main.css.map */
