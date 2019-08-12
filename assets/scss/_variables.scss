@@ -1,6 +1,84 @@
-$color: #f1f1f1;
-$font-name: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-$blue: blue;
-$violet: violet;
+// Google Web Fonts
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700|Roboto:400,500,700');
 
-$yellow: #00db12;
+// Variables
+
+$black: #000;
+$white: #fff;
+
+$max-width: 100%;
+
+// ## Custom
+$ras-white: $white;
+$ras-black: #2F2F2F;
+$ras-yellow: #EACA33;
+$ras-green: #0ab972;
+$ras-red: #EC1D2B;
+$ras-lightgray: #DCDDDE;
+$ras-border-color: #7B7D7D;
+$ras-border-color2: #C7C7C8;
+$ras-link-color: #15619B;
+$ras-table-lightgray: #E5E5E5;
+$ras-collapse-gray: #F8F8F8;
+$ras-light-blue: #deeef6;
+$ras-light-red: #fceaed;
+
+$modal-overlay-bg: rgba(0,0,0,.4);
+
+// ## for GLOBAL stylesss START
+$body-bg: $white;
+
+$primary-link-color: $ras-link-color;
+$primary-link-color-hover: $ras-link-color;
+$nav-active-color: $white;
+
+$button-bg: $ras-black;
+$button-color: $ras-yellow;
+
+$selection-bg: $ras-yellow;
+$selection-color: $ras-black;
+
+$box-shadow-bg: $ras-black;
+
+$form-bg: $white;
+$form-color: $ras-black;
+$form-placeholder-color: $ras-border-color;
+$form-border-color: $ras-border-color;
+$form-border-color-focused: $ras-black;
+$form-disabled-bg: $ras-border-color;
+
+$autofill-bg-color: $form-bg;
+$autofill-color: $form-color;
+$autofill-border-color: $form-border-color;
+$autofill-shadow-color: $form-bg;
+
+$table-thead-bg: $ras-table-lightgray;
+$table-thead-color: $ras-black;
+$table-tbody-bg: $ras-white;
+$table-border-color: $ras-border-color;
+$table-tr-even-bg: $ras-lightgray;
+
+// numbers for FORM-FIELDS
+$form-font-size: .75rem;
+$form-placeholder-font-size: .75rem;
+$form-placeholder-style: normal;
+$form-height: 26px;
+$form-padding: 5px;
+
+// select box
+$selectbox-padding: 5px 29px 5px 5px;
+
+// P - Paragraph
+$line-height: 1.75;
+$p-font-size: .875rem;
+
+// button
+$button-padding: 10px 40px;
+
+// modal styles - if modal applied
+$modal-minwidth: 700px;
+// ## for GLOBAL stylesss END
+
+//mobile menu
+$cubic: cubic-bezier(0.4, 0.01, 0.165, 0.99);
+$menuItems: 5;
